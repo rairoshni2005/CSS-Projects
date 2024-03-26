@@ -1,0 +1,25 @@
+
+/* external_css.css */
+
+/* Styles for h2 tag */
+h2 {
+    color: blue;
+    font-size: 24px;
+  }
+  
+  /* Styles for hr tag */
+  hr {
+    border: 1px solid black;
+  }
+  
+  /* Styles for p tag */
+  p {
+    color: green;
+  }
+  
+  /* Styles for a tag */
+  a {
+    text-decoration: none;
+    color: red;
+  }
+  
