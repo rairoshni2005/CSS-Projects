@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #efcdcd;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 20px auto;
+        background-color: #f37272;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        color: #050404;
+    }
+    .cart {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .item {
+        width: calc(25% - 20px);
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    .item:hover {
+        transform: translateY(-5px);
+    }
+    .item img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .item h2 {
+        margin-top: 10px;
+        font-size: 20px;
+        color: #333;
+    }
+    .item p {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #666;
+    }
+    .item button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #710808;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .item button:hover {
+        background-color: #ff7e7e;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Shopping Cart</h1>
+    <div class="cart">
+        <div class="item">
+            <img src="product_1.jpg" alt="Product Image">
+            <h2>DAIRY MILK</h2>
+            <p>₹ 200</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="product_2.jpg" alt="Product Image">
+            <h2>KIT KAT</h2>
+            <p>₹ 259</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="product_3.jpg" alt="Product Image">
+            <h2>5 STAR</h2>
+            <p>₹ 45</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="product_4.jpg" alt="Product Image">
+            <h2>SNICKERS</h2>
+            <p>₹ 60</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="product_5.jpg" alt="Product Image">
+            <h2>MILKY BAR</h2>
+            <p>₹ 25</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="product_6.jpg" alt="Product Image">
+            <h2>FUSE</h2>
+            <p>₹ 50</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
