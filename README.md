@@ -22,3 +22,7 @@ Typography: Enhance readability and aesthetics with thoughtful typography choice
 Customization: Personalize your projects with custom CSS styles that reflect your unique vision and brand identity.
 If you have any questions or suggestions regarding this repository, feel free to contact us at rairoshni2005@gmail.com.
 
+
+Here is the link to my CSS LAB MANUAL pdf
+👇🏻👇🏻👇🏻
+https://heyzine.com/flip-book/70dcd17469.html
